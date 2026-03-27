@@ -1,0 +1,38 @@
+import Image from "next/image";
+
+const HomePage = () => {
+  return (
+    <div className="flex justify-around items-center">
+      <div className="p-10 bg-blue-50 flex items-center justify-around">
+        <Image
+          src={"./homeImage.svg"}
+          width={500}
+          height={500}
+          alt="loading..."
+        />
+      </div>
+      <div className="p-10 w-full">
+        <h1>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+          facilis.
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum esse
+          dolorum quod sunt possimus vel totam eos? Sapiente, corporis voluptate
+          eos, amet cupiditate laboriosam eveniet perferendis dolores ipsam
+          ullam commodi reiciendis minus minima ab beatae distinctio aliquid,
+          similique saepe velit. Ea, dicta voluptatem? Quisquam, enim corporis
+          aspernatur nostrum saepe at commodi eligendi consequatur fuga sunt!
+          Sed atque, molestiae autem voluptate quia harum ad commodi nisi?
+          Maiores necessitatibus blanditiis sit unde cum consequatur nemo eaque
+          non aperiam ipsum nisi ab voluptates autem expedita neque ipsam
+          laudantium eos dolor tenetur temporibus assumenda, quidem nostrum
+          officiis architecto? Esse obcaecati excepturi optio dolorum
+          praesentium!
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default HomePage;
